@@ -6,5 +6,9 @@
 	{"keys": ["super+k", "d","h"], "command": "dec_to_hex"},
 	{"keys": ["super+k", "e","d"], "command": "exp_to_dec"},
 	{"keys": ["super+k", "h","b"], "command": "hex_to_bin"},
-	{"keys": ["super+k", "h","d"], "command": "hex_to_dec"}
+	{"keys": ["super+k", "h","d"], "command": "hex_to_dec"},
+	{"keys": ["super+k", "u","f","d"], "command": "ufx_to_dec"},
+	{"keys": ["super+k", "s","f","d"], "command": "sfx_to_dec"},
+	{"keys": ["super+k", "s","b","d"], "command": "sbin_to_dec"},
+	{"keys": ["super+k", "s","b","h"], "command": "sbin_to_hex"},
 ]

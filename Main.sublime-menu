@@ -15,7 +15,11 @@
                     {"command": "bin_to_dec"},
                     {"command": "bin_to_hex"},
                     {"command": "hex_to_dec"},
-                    {"command": "hex_to_bin"}
+                    {"command": "hex_to_bin"},
+                    {"command": "ufx_to_dec"},
+                    {"command": "sfx_to_dec"},
+                    {"command": "sbin_to_dec"},
+                    {"command": "sbin_to_hex"}
                 ]
             }
         ]

@@ -31,4 +31,20 @@
         "caption": "Convert Number: Dec to Exp",
         "command": "dec_to_exp"
     },
+    {
+        "caption": "Convert Number: Ufx to Dec",
+        "command": "ufx_to_dec"
+    },
+    {
+        "caption": "Convert Number: Sfx to Dec",
+        "command": "sfx_to_dec"
+    },
+    {
+        "caption": "Convert Number: Sbin to Dec",
+        "command": "sbin_to_dec"
+    },
+    {
+        "caption": "Convert Number: Sbin to Hex",
+        "command": "sbin_to_hex"
+    },
 ]
