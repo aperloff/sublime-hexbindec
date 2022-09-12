@@ -5,14 +5,20 @@ This package provides ability to inplace change the base of numbers in [SublimeT
 
 ## Usage
 1. Move the cursor over a number or select one or more numbers.
-2. Press one of the following key combinations to convert the numbers.
+2. Press one of the following key combinations to convert the numbers (replace `ctrl` with `super` for MacOS):
 
-	- <kbd>Ctrl+shift+b, ctrl+shift+d</kbd> binary to decimal
-	- <kbd>Ctrl+shift+b, ctrl+shift+h</kbd> binary to hexadecimal
-	- <kbd>Ctrl+shift+d, ctrl+shift+b</kbd> binary to decimal
-	- <kbd>Ctrl+shift+d, ctrl+shift+h</kbd> binary to hexadecimal
-	- <kbd>Ctrl+shift+h, ctrl+shift+b</kbd> hexadecimal to binary
-	- <kbd>Ctrl+shift+h, ctrl+shift+d</kbd> hexadecimal to decimal
+	- <kbd>ctrl+k, b, d</kbd> binary to decimal
+	- <kbd>ctrl+k, b, h</kbd> binary to hexadecimal
+	- <kbd>ctrl+k, d, b</kbd> decimal to binary
+	- <kbd>ctrl+k, d, e</kbd> decimal to exponential
+	- <kbd>ctrl+k, d, h</kbd> decimal to hexadecimal
+	- <kbd>ctrl+k, e, d</kbd> exponential to decimal
+	- <kbd>ctrl+k, h, b</kbd> hexadecimal to binary
+	- <kbd>ctrl+k, h, d</kbd> hexadecimal to decimal
+	- <kbd>ctrl+k, u, f, d</kbd> unsigned fixed to decimal
+	- <kbd>ctrl+k, s, f, d</kbd> signed fixed to decimal
+	- <kbd>ctrl+k, s, b, d</kbd> signed binary to decimal
+	- <kbd>ctrl+k, s, b, h</kbd> signed binary to hexadecimal
 
 The commands are available in
 - command pallet under `Convert Number: ...`
@@ -20,7 +26,7 @@ The commands are available in
 - context menu -> Convert Numbers
 
 ## Setup
-You can setup patterns to identify binary, decimal and hexadecimal numbers for each syntax just by adding the following settings to the syntax specific settings file `<scope>.sublime-settings`.
+You can setup patterns to identify binary, fixed point, decimal, and hexadecimal numbers for each syntax just by adding the following settings to the syntax specific settings file `<scope>.sublime-settings`.
 
 ```javascript
 	// ...
@@ -46,8 +52,9 @@ You can setup patterns to identify binary, decimal and hexadecimal numbers for e
 
 ## Inspired by
 
-[Hex-Bin-System][2] by ALLZ
+[Hex-Bin-System][2] by ALLZ and [HexBinDec][3] by deathaxe
 
-[home]:		<https://github.com/deathaxe/sublime-hexbindec>
-[1]:			<http://www.sublimetext.com>
-[2]:			<https://github.com/ALLZ/hex-bin_system>
+[home]:	<https://github.com/deathaxe/sublime-hexbindec>
+[1]: <http://www.sublimetext.com>
+[2]: <https://github.com/ALLZ/hex-bin_system>
+[3]: <https://github.com/deathaxe/sublime-hexbindec>
